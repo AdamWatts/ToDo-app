@@ -1,0 +1,8 @@
+### Local .gitignore ###
+
+### node_modules ###
+node_modules/
+
+### .rc's ###
+*.eslintrc
+*.jshintrc
