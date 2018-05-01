@@ -15,7 +15,7 @@
       <h1 class="section-heading">To Do List
         <button class="heading-btn">+</button>
       </h1>
-      <input type="text" class="add-text" >
+      <input onkeydown="return addHandler(event.key)" type="text" class="add-text" placeholder="Add...">
       <ul class="todo-list">
         <li class="todo-list__item todo-list__item--first">
           <a class="todo-list__link" href="#">&times</a>
