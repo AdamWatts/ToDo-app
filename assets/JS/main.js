@@ -38,8 +38,7 @@ addHandler = event => {
   const el = event.target;
   const li = document.createElement('li');
   const a = document.createElement('a');
-  const textInput = document.querySelector('.add-text[type="text"]');
-  const text = textInput.value;
+  const text = input.value;
   li.innerHTML = text;
   a.setAttribute('class', 'todo-list__link');
   a.setAttribute('href', '#');
