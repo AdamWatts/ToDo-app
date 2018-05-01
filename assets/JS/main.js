@@ -7,7 +7,7 @@ const btn = document.querySelector('.heading-btn');
 const criteria = {
   isComplete: el => el.classList.contains,
   isRemove: el => el && el.matches('a'),
-  isAdd: el => event.keyCode === 13,
+  isAdd: el => event.key === 'Enter',
   isInput: el => input.style.display === 'none'
 };
 
