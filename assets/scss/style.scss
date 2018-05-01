@@ -78,6 +78,7 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   box-sizing: border-box;
   background-color: $dark-list;
   border: $input-border;
+  z-index: 1;
 
   &:focus {
     border: $input-border-focus;
