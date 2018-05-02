@@ -65,5 +65,5 @@ inputHandler = event => {
 // call eventListeners
 ul.addEventListener('click', completeHandler, false);
 ul.addEventListener('click', removeHandler, false);
-input.addEventListener('keydown', addHandler, false);
+input.addEventListener('keypress', addHandler, false);
 btn.addEventListener('click', inputHandler, false);
