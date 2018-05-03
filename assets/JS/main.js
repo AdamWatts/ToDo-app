@@ -45,6 +45,7 @@ addHandler = event => {
   a.innerHTML = '&times';
   li.setAttribute('class', 'todo-list__item');
   if (criteria.isAdd(el)) {
+    console.log()
     event.stopPropagation();
     ul.appendChild(li).appendChild(a);
     input.value = '';
