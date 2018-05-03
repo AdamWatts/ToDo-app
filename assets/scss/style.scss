@@ -6,10 +6,7 @@
 //   -ms-user-select: none;
 // }
 
-// mixin for __item:hover __link
 
-
-// mixin for __item:nth-child(2n):hover __link
 
 
 $font-stack: 'Roboto',sans-serif;
@@ -109,6 +106,8 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   float: right;
   opacity:0;
 }
+
+// mixin for __item:hover __link
 
 %adapting-del-btn {
   color: $white;
