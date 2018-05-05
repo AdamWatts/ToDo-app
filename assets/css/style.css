@@ -1,9 +1,6 @@
 .body {
   font-family: "Roboto", sans-serif;
   background: #202020;
-  /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to right, #202020, #202020);  /* Chrome 10-25, Safari 5.1-6 */
-  /*background: linear-gradient(to right, #202020, #202020); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: whitesmoke; }
 
 .completed {
@@ -150,24 +147,5 @@
   .section-heading {
     height: 65px;
     padding: 7.5% 0% 0% 5%; } }
-  /*
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  -ms-transition-property: -ms-transform;
-  -o-transition-property: -o-transform;
-  transition-property: transform;
-
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg;
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  transform: rotate(360deg);
-*/
 
 /*# sourceMappingURL=style.css.map */

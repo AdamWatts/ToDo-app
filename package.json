@@ -5,8 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "eslint": "^4.3.0",
-    "eslint-config-google": "^0.9.1",
-    "express": "^4.15.4"
+    "eslint-config-google": "^0.9.1"
   },
   "devDependencies": {},
   "scripts": {

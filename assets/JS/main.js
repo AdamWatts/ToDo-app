@@ -1,4 +1,3 @@
-// Refactor for best code
 
 // Define global const's
 const ul = document.querySelector('.todo-list');
@@ -24,10 +23,8 @@ completeHandler = event => {
 
 removeHandler = event => {
   const el = event.target;
-  //const li = document.getElementById('li');
   if (criteria.isRemove(el)) {
     event.stopPropagation();
-    //li.className += 'faded';
     el.parentNode.parentNode.removeChild(el.parentNode);
   } else {
     event.preventDefault();
