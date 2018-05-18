@@ -39,7 +39,9 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   padding: 20px 10px 10px 20px;
   color: $white;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 35px;
+  display: inline-block;
+  float: left;
 }
 
 .heading-btn {
@@ -50,7 +52,7 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   outline: none;
   font-weight: 1600;
   border-style: none;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .add-text[type=text]{
@@ -138,13 +140,15 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   .section-heading {
     width: 100%;
     height: 75px;
-    font-size: 40px;
+    font-size: 45px;
     padding: 5% 2.5% 2.5% 2.5%;
+    display: inline-block;
+    float: left;
   }
 
   .heading-btn {
     padding: 0 0 0 19%;
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .add-text[type=text]{
@@ -183,8 +187,10 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   .section-heading {
     width: 100%;
     height: 70px;
-    font-size: 30px;
+    font-size: 35px;
     padding: 5% 0% 0% 4%;
+    display: inline-block;
+    float: left;
   }
 
   .heading-btn {
@@ -212,5 +218,7 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   .section-heading {
     height: 65px;
     padding: 7.5% 0% 0% 5%;
+    display: inline-block;
+    float: left;
   }
 }
