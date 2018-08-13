@@ -1,3 +1,4 @@
+
 $font-stack: 'Roboto',sans-serif;
 
 $darkest-gray: #202020;
@@ -53,6 +54,11 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   font-weight: 1600;
   border-style: none;
   font-size: 45px;
+  // @include transition($transition-duration);
+
+  // &.open {
+  //   @include rotate(225deg);
+  // }
 }
 
 .add-text[type=text]{
