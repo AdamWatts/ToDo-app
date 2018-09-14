@@ -53,11 +53,9 @@ inputHandler = event => {
   el = event.target;
   if (criteria.isInput(el)) {
     input.style.display = 'block';
-    // btn.style.display = 'open'
     event.stopPropagation();
   } else {
     input.style.display = 'none';
-    // btn.style.display = 'close'
     event.preventDefault();
   }
 }
