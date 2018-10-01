@@ -32,6 +32,9 @@ $RECYCLE.BIN/
 
 
 ### Local .gitignore ###
+css
+package-lock.json
+.vscode/
 
 ### node_modules ###
 node_modules/
@@ -39,5 +42,3 @@ node_modules/
 ### .rc's ###
 *.eslintrc
 *.jshintrc
-css
-

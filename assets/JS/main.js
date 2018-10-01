@@ -54,9 +54,11 @@ inputHandler = event => {
   if (criteria.isInput(el)) {
     input.style.display = 'block';
     event.stopPropagation();
+    btn.setAttribute('class', 'heading-btn open');
   } else {
     input.style.display = 'none';
     event.preventDefault();
+    btn.setAttribute('class', 'heading-btn');
   }
 }
 
