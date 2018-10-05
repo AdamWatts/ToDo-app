@@ -1,6 +1,6 @@
 # ToDo-app ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-A simple vanilla JavaScript to-do app styled with Sass.
+A simple vanilla JavaScript to-do app styled with SASS; compiled with Gulp.
 
 <!-- ## Installation
 
