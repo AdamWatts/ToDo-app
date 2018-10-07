@@ -13,7 +13,7 @@ A simple vanilla JavaScript to-do app styled with SASS; compiled with Gulp.
 `npm i gulp`
 `npm i gulp-sass`
 
-<!-->
+<!--
 ## Usage
 
 ```python
