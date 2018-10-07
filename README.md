@@ -2,14 +2,18 @@
 
 A simple vanilla JavaScript to-do app styled with SASS; compiled with Gulp.
 
-<!-- ## Installation
+ ## Installation
 
 ### Requirements
-* Linux
-* Python 3.3 and up
+* sass 
+* gulp 
+* gulp-sass
 
-`$ pip install foobar`
+`npm i sass`
+`npm i gulp`
+`npm i gulp-sass`
 
+<!-->
 ## Usage
 
 ```python
