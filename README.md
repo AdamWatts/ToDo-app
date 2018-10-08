@@ -13,9 +13,16 @@ A simple vanilla JavaScript to-do app styled with SASS; compiled with Gulp.
 `npm i gulp`
 `npm i gulp-sass`
 
-<!--
+
 ## Usage
 
+Create a gulpfile.js in the root of your project directory.
+
+follow README from [gulp-sass][1] 
+
+[1]: https://github.com/dlmanning/gulp-sass/blob/master/README.md
+
+<!--
 ```python
 import foobar
 
