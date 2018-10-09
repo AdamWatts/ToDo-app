@@ -16,7 +16,27 @@ A simple vanilla JavaScript to-do app styled with SASS; compiled with Gulp.
 
 ## Usage
 
-Create a gulpfile.js in the root of your project directory.
+Create a gulpfile.js in the root of your project directory. e.g
+
+```javascript 
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+
+//style paths
+var sassFiles = 'assets/styles/scss/**/*.scss',
+    cssDest = 'assets/styles/css/';
+
+gulp.task('styles', function() {
+    gulp.src(sassFiles)
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest(cssDest));
+});
+
+gulp.task('watch',function() {
+  gulp.watch(sassFiles,['styles']);
+});
+```
+Then run 'gulp watch' in the console as for the above example.
 
 follow README from [gulp-sass][1] 
 
