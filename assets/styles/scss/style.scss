@@ -28,7 +28,7 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 400px;
+  width: 500px;
   background-color: $darkest-gray;
   box-shadow: $box-shadow;
 }
@@ -40,7 +40,7 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   padding: 20px 10px 10px 20px;
   color: $white;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 27.5px;
   display: inline-block;
   float: left;
 }
@@ -48,12 +48,13 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
 .heading-btn {
   background-color: $dark-grey;
   float: right;
+  display: inline-block;
   color: $white;
   cursor: pointer;
   outline: none;
   font-weight: 1600;
   border-style: none;
-  font-size: 45px;
+  font-size: 30px;
   -moz-transition: all .5s linear;
     -webkit-transition: all .5s linear;
     transition: all .5s linear;
@@ -67,7 +68,7 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
 
 .add-text[type=text]{
   width: 100%;
-  padding: 15px 15px 15px 17px;
+  padding: 10px 15px 10px 17px;
   color: $white;
   font-size: 25px;
   box-sizing: border-box;
@@ -157,7 +158,6 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   }
 
   .heading-btn {
-    padding: 0 0 0 19%;
     font-size: 45px;
   }
 
@@ -204,7 +204,8 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   }
 
   .heading-btn {
-    padding: 0 5% 0 0;
+    margin-right: .25em;
+    display: inline-block;
   }
 
   .add-text[type=text]{
