@@ -151,14 +151,14 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   .section-heading {
     width: 100%;
     height: 75px;
-    font-size: 45px;
+    font-size: 27.5px;
     padding: 5% 2.5% 2.5% 2.5%;
     display: inline-block;
     float: left;
   }
 
   .heading-btn {
-    font-size: 45px;
+    font-size: 30px;
   }
 
   .add-text[type=text]{
@@ -197,7 +197,7 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   .section-heading {
     width: 100%;
     height: 70px;
-    font-size: 35px;
+    font-size: 27.5px;
     padding: 5% 0% 0% 4%;
     display: inline-block;
     float: left;
@@ -206,6 +206,7 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
   .heading-btn {
     margin-right: .25em;
     display: inline-block;
+    font-size: 30px;
   }
 
   .add-text[type=text]{
@@ -231,5 +232,10 @@ $input-border-focus: 1px solid rgba(255,255,255,0.5);
     padding: 7.5% 0% 0% 5%;
     display: inline-block;
     float: left;
+    font-size: 27.5px;
+  }
+
+  .heading-btn{
+    font-size: 30px;
   }
 }
